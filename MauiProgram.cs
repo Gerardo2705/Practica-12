@@ -1,8 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using Todo20367749.Data;
-using Todo20367749.Views;
 
-namespace Todo20367749
+namespace Databinding20367749
 {
     public static class MauiProgram
     {
@@ -20,11 +18,6 @@ namespace Todo20367749
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-
-            builder.Services.AddSingleton<TodoListPage>();
-            builder.Services.AddTransient<TodoItemPage>();
-
-            builder.Services.AddSingleton<TodoItemDatabase>();
 
             return builder.Build();
         }

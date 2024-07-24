@@ -1,4 +1,4 @@
-﻿namespace Todo20367749
+﻿namespace Databinding20367749
 {
     public partial class App : Application
     {
